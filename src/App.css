@@ -1,0 +1,37 @@
+html, body
+{
+    min-height: 100%;
+}
+
+body
+{
+    font-family: 'Orbitron', sans-serif;
+
+    /* background-color:hsla(0,0%,0%,1);
+    background-image:
+    radial-gradient(at 40% 20%, hsla(40,100%,9%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(205,100%,16%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(11,100%,10%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(356,100%,9%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(27,100%,13%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(256,100%,17%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(359,100%,10%,1) 0px, transparent 50%); */
+}
+
+video 
+{ 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    filter: blur(7px);
+}
+
+.cover-screen
+{
+    min-height: 100vh;
+}
